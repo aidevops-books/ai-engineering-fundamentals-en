@@ -34,3 +34,13 @@ The lab order, prerequisites and what each file is for are in [`companion/README
 - Use these files in a learning environment only. Passwords and tokens in the examples are teaching values, not for real services.
 - With tool versions other than the book's, output and options may differ slightly.
 - To report an error, open an Issue with the book title and edition, chapter, your environment and the steps to reproduce.
+
+## License
+
+Copyright © 2026 John Bae
+
+- **Code** (manifests, Dockerfiles, scripts, configuration and example application source): [MIT License](LICENSE). Use and modify it freely, keeping the copyright notice.
+- **Written guides** (every Markdown document, including this README): [CC BY-NC-ND 4.0](LICENSE-docs). Share them unchanged, with credit, for non-commercial purposes. Commands and code fragments quoted in the guides may be used under MIT, like the rest of the code.
+- **The book's text and figures** are not in this repository. All rights reserved.
+
+Software from other projects that the examples use, such as container images and Helm charts, remains under those projects' own licenses.
