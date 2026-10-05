@@ -1,0 +1,15 @@
+# AI Knowledge Assistant companion project -- direct dependencies across all versions.
+# Tested against: scikit-learn 1.9.1, sentence-transformers 6.0.1 (pulls in torch
+# 2.14.0+cpu and transformers 5.17.0 transitively), openai 3.13.0, mcp 2.x (see README.md).
+#
+# sentence-transformers pulls in torch automatically; if you want a CPU-only torch
+# build instead of whatever your platform's default is, install it first with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# then install the rest of this file normally:
+#   pip install -r requirements.txt
+
+pandas
+scikit-learn
+sentence-transformers
+openai
+mcp
